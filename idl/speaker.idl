@@ -1,0 +1,8 @@
+#ifndef __SERVER_IDL__
+#define __SERVER_IDL__
+
+interface Speaker {
+    void speak(in string mesg);
+};
+
+#endif  // __SERVER_IDL__
