@@ -69,8 +69,7 @@ class Speaker_i : public POA_Speaker {
         }
 };
 
-int main(int argc, char* argv[]) {
- 
+int main(int argc, char* argv[]) { 
     try {
         CORBA::ORB_var orb = CORBA::ORB_init(argc, argv);
         CORBA::Object_var obj = orb->resolve_initial_references("RootPOA");

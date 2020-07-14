@@ -2,6 +2,10 @@ cmake_minimum_required(VERSION 3.10)
 
 project(TestTask)
 
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_FLAGS_DEBUG   "${CMAKE_CXX_FLAGS_DEBUG}   -g3")
+set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} -o3")
+
 set(PRJ_DIR ${CMAKE_CURRENT_SOURCE_DIR})
 set(IDL_DIR ${PRJ_DIR}/idl)
 set(STUB_DIR ${PRJ_DIR}/stub)
