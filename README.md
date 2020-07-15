@@ -1,6 +1,6 @@
 # TestTask
 
-##Installation
+## Installation
 
 ```
 mkdir -p ~/tmp/cfg
@@ -19,7 +19,7 @@ cd build
 make
 ```
 
-##Launch 
+## Launch 
 Firstly you have to launch omniNames as background process
 ```
 omniNames -start <port> &
