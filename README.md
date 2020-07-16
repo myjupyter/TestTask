@@ -3,7 +3,7 @@
 ## Dependecies
 * [omniORB 4.3](https://sourceforge.net/projects/omniorb/files/omniORB/omniORB-4.3.0/)
 
-## Installation
+## Linux Installation
 
 1. `mkdir -p ~/tmp/cfg`
 2. `cp config/config.cfg ~/tmp/cfg`
